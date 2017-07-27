@@ -177,8 +177,7 @@ def analyseAll(diff, trainingMethod) :
         print("-------PID " + str(i) + " Started Analysing-------")
         doAnalysing(i, episodeList[i - 1], diff, trainingMethod)
 
-# analyseAll(1, "SVM")
-doProcessing(2, 1)
+analyseAll(1, "SVM")
     
 
         
